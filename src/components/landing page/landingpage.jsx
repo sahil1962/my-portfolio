@@ -1,3 +1,6 @@
+// "gsap": "^3.12.3",
+// "react-gsap": "^3.2.1",
+
 import "./landingpage.css";
 import Profile from "../../assets/Profile.png";
 import Typed from "react-typed";
