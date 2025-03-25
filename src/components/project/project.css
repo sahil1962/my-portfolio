@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Poppins:wght@200&display=swap");
+
+.Project {
+    font-family: "Fira Code", monospace;
+}
+
+
+.Project .background {
+    height: 100vh;
+    background-image: linear-gradient(60deg, #160514 50%, #000000 0%);
+    color: aliceblue;
+}
+
+.Project .background .heading {
+    padding-top: 7%;
+    padding-left: 10%;
+    font-size: x-large;
+    font-weight: lighter;
+}
+
+.Project .background .heading .line {
+    background-color: #ee7f19;
+    width: max-content;
+    height: 4px;
+    padding-left: 15%;
+    margin-left: 11%;
+    margin-top: -1.2%;
+}
+
+.Project .background .ParentDiv {
+    margin-top: 5%;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    /* height: max-content; */
+    justify-content: space-between;
+
+}
+
+
+
+.Project .background .ParentDiv .ViewAll {
+    font-size: large;
+
+}
+
+.Project .background .ParentDiv .ChildDivs {
+    margin: 2%;
+    width: 20vw;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    border-style: double;
+    color: #948b8b;
+}
+
+.Project .background .ParentDiv .ChildDivs .Photo {
+    border-style: double;
+    color: #948b8b50;
+}
+
+.Project .background .ParentDiv .ChildDivs .Photo .ProjectImage {
+    width: 100%;
+    height: 100%;
+    opacity: 50%;
+    transition: all 1s;
+
+}
+
+.Project .background .ParentDiv .ChildDivs .Photo .ProjectImage:hover {
+    opacity: 100%;
+    transition: all 0.5s;
+}
+
+.Project .background .ParentDiv .ChildDivs .Technology {
+    border-style: double;
+    color: #948b8b50;
+    height: max-content;
+
+}
+
+.Project .background .ParentDiv .ChildDivs .Technology p {
+    margin: 2%;
+    color: #ffffff;
+    /* font-size:calc(medium -2px); */
+    font-size: smaller;
+    font-weight: lighter;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+.Project .background .ParentDiv .ChildDivs .Details {
+    border-style: double;
+    color: #948b8b50;
+    height: max-content;
+}
+
+.Project .background .ParentDiv .ChildDivs .Details h3 {
+    margin: 2%;
+    color: #ffffff;
+    font-weight: lighter;
+    font-family: "Fira Code", monospace;
+}
+
+.Project .background .ParentDiv .ChildDivs .Details .GitButton {
+    margin: 2%;
+    padding: 1%;
+    color: #ffffff;
+    border-color: #C778DD;
+    border-width: 1px;
+    width: max-content;
+    border-style: groove;
+    transition: all 1s;
+
+}
+
+.Project .background .ParentDiv .ChildDivs .Details .GitButton:hover {
+    background-color: #C778DD;
+    color: #000000;
+    transition: all 0.5s;
+}
+
+@media (max-width: 600px) {
+
+    .Project .background .heading {
+        padding-top: 25%;
+        padding-left: 5%;
+        font-size: large;
+        font-weight: lighter;
+    }
+
+    .Project .background .heading .line {
+        background-color: #ee7f19;
+        width: max-content;
+        height: 4px;
+        padding-left: 15%;
+        margin-left: 32%;
+        margin-top: -3.3%;
+    }
+
+    .Project .background .ParentDiv {
+        margin-top: 5%;
+        margin-left: 10%;
+        display: flex;
+        flex-direction: column;
+        /* width: 80vw; */
+        justify-content: space-between;
+        /* border-style: double; */
+        height: max-content;
+
+    }
+
+    .Project .background .ParentDiv .ChildDivs {
+        margin: 5%;
+        width: max-content;
+        /* height: 40vh; */
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        border-style: double;
+        color: #948b8b;
+    }
+
+    .Project .background .ParentDiv .ChildDivs .Photo .ProjectImage {
+        width: 100%;
+        height: 11vh;
+        opacity: 50%;
+        transition: all 1s;
+
+    }
+}

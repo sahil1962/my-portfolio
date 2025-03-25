@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Poppins:wght@200&display=swap");
+
+.Skills {
+    font-family: "Fira Code", monospace;
+}
+
+
+.Skills .background {
+    height: 100vh;
+    background-image: linear-gradient(-60deg, #000000 50%, #160514 50%);
+    color: aliceblue;
+}
+
+.Skills .background .heading {
+    padding-top: 7%;
+    padding-left: 10%;
+    font-size: x-large;
+    font-weight: lighter;
+}
+
+.Skills .background .heading .line {
+    background-color: #ee7f19;
+    width: max-content;
+    height: 4px;
+    padding-left: 15%; 
+    margin-left: 10%;
+    margin-top: -1.2%;
+}
+
+.Skills .background .contentDiv .ParentDiv {
+    margin-top: 5%;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* border-style: dashed; */
+
+}
+
+.Skills .background .contentDiv .ParentDiv .UsingNow{
+    /* border-style: dashed; */
+    width: max-content;
+}
+
+.Skills .background .contentDiv .ParentDiv .UsingNow .SkillsImages .LogoImage{
+    height: 10vh;
+}
+
+.Skills .background .contentDiv .ParentDiv .UsingNow .SkillsImages{
+    margin-top: 5%;
+    /* border-style: dashed;
+    color: #ee7f19; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+
+.Skills .background .contentDiv .ParentDiv .UsingNow .SkillsImages .SkillsImagesFrontend{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+.Skills .background .contentDiv .ParentDiv .UsingNow .SkillsImages .SkillsImagesFrontend .LogoContainer{
+    text-align: center;
+    /* border-style: dashed; */
+
+}
+.Skills .background .contentDiv .ParentDiv .UsingNow .SkillsImages .SkillsImagesFrontend .LogoContainer .SkillName{
+    margin-top: 10px;
+    /* border-style: dashed; */
+
+}
+
+.Skills .background .contentDiv .ParentDiv .UsingNow .SkillsImages .SkillsImagesBackend{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    /* border-style: dashed;
+    color: rgb(238, 25, 25); */
+}
+
+
+.Skills .background .contentDiv .ParentDiv .UsingNow .SkillsImages .SkillsImagesBackend .LogoContainer{
+    text-align: center;
+    /* border-style: dashed; */
+
+}
+.Skills .background .contentDiv .ParentDiv .UsingNow .SkillsImages .SkillsImagesBackend .LogoContainer .SkillName{
+    margin-top: 10px;
+    /* border-style: dashed; */
+
+}
+
+
+
+.Skills .background .contentDiv .ParentDiv .OtherSkills{
+    /* border-style: dashed; */
+    width: max-content;
+}
+
+.Skills .background .contentDiv .ParentDiv .OtherSkills .SkillsImages .LogoImage{
+    height: 10vh;
+}
+
+.Skills .background .contentDiv .ParentDiv .OtherSkills .SkillsImages{
+    margin-top: 5%;
+    /* border-style: dashed;
+    color: #ee7f19; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+
+.Skills .background .contentDiv .ParentDiv .OtherSkills .SkillsImages .SkillsImagesFrontend{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+.Skills .background .contentDiv .ParentDiv .OtherSkills .SkillsImages .SkillsImagesFrontend .LogoContainer{
+    text-align: center;
+    /* border-style: dashed; */
+
+}
+.Skills .background .contentDiv .ParentDiv .OtherSkills .SkillsImages .SkillsImagesFrontend .LogoContainer .SkillName{
+    margin-top: 10px;
+    /* border-style: dashed; */
+
+}
+
+.Skills .background .contentDiv .ParentDiv .OtherSkills .SkillsImages .SkillsImagesBackend{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    /* border-style: dashed;
+    color: rgb(238, 25, 25); */
+}
+
+
+.Skills .background .contentDiv .ParentDiv .OtherSkills .SkillsImages .SkillsImagesBackend .LogoContainer{
+    text-align: center;
+    /* border-style: dashed; */
+
+}
+.Skills .background .contentDiv .ParentDiv .OtherSkills .SkillsImages .SkillsImagesBackend .LogoContainer .SkillName{
+    margin-top: 10px;
+    /* border-style: dashed; */
+
+}
+
+
+.Skills .background .contentDiv .ParentDiv .SkillsHeading {
+    font-size: x-large;
+    font-weight: lighter;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+@media (max-width: 600px) {
+
+    .Skills .background .heading {
+        padding-top: 25%;
+        padding-left: 5%;
+        font-size: large;
+        font-weight: lighter;
+    }
+    
+    .Skills .background .heading .line {
+        background-color: #ee7f19;
+        width: max-content;
+        height: 4px;
+        padding-left: 15%; 
+        margin-left: 30%;
+        margin-top: -3.3%;
+    }
+
+
+    .Skills .background .contentDiv .ParentDiv {
+        margin: 5%;
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;    
+    }
+
+        
+    .Skills .background .contentDiv .ParentDiv .UsingNow{
+        margin-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    .Skills .background .contentDiv .ParentDiv .UsingNow .SkillsImages .LogoImage{
+        /* border-style: dashed; */
+
+        height: 5vh;
+    }
+    
+    .Skills .background .contentDiv .ParentDiv .UsingNow .SkillsImages .LogoImage:hover{
+        backdrop-filter: 2px;
+    }
+
+    .Skills .background .contentDiv .ParentDiv .UsingNow .SkillsImages{ 
+        margin-top: 5%;
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Skills .background .contentDiv .ParentDiv .UsingNow .SkillsImages .SkillsImagesFrontend{
+        margin-top: 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        /* border-style: dashed; */
+        color: #ee1919;
+    }
+    
+    .Skills .background .contentDiv .ParentDiv .UsingNow .SkillsImages .SkillsImagesFrontend .LogoContainer{
+        text-align: center;
+        /* border-style: dashed; */
+        color: #f9f9f9;
+        margin: 0%;
+    }
+
+    .Skills .background .contentDiv .ParentDiv .UsingNow .SkillsImages .SkillsImagesBackend{
+       
+        margin-top: 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        /* border-style: dashed; */
+    }
+    
+    
+    .Skills .background .contentDiv .ParentDiv .UsingNow .SkillsImages .SkillsImagesBackend .LogoContainer{
+        text-align: center;
+        /* border-style: dashed; */
+        margin: 0%;
+    } 
+
+
+    .Skills .background .contentDiv .ParentDiv .OtherSkills{
+        margin-top: 20%;
+        padding-bottom: 10%;
+    }
+
+    .Skills .background .contentDiv .ParentDiv .OtherSkills .SkillsImages .LogoImage{
+        margin-top: 20%;
+        
+        height: 5vh;
+    }
+    
+    .Skills .background .contentDiv .ParentDiv .OtherSkills .SkillsImages{
+        margin-top: 5%;
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Skills .background .contentDiv .ParentDiv .OtherSkills .SkillsImages .SkillsImagesFrontend{
+        margin-top: 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        /* border-style: dashed; */
+        color: #ee1919;
+    }
+    
+    .Skills .background .contentDiv .ParentDiv .OtherSkills .SkillsImages .SkillsImagesFrontend .LogoContainer{
+        text-align: center;
+        /* border-style: dashed; */
+        color: #f9f9f9;
+        margin: 0%;
+    }
+
+    .Skills .background .contentDiv .ParentDiv .OtherSkills .SkillsImages .SkillsImagesBackend{
+       
+        margin-top: 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        /* border-style: dashed;
+        color: rgb(238, 25, 25); */
+    }
+    
+    
+    .Skills .background .contentDiv .ParentDiv .OtherSkills .SkillsImages .SkillsImagesBackend .LogoContainer{
+        text-align: center;
+        /* border-style: dashed; */
+        margin: 0%;
+    } 
+
+}

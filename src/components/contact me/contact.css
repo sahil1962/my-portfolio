@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Poppins:wght@200&display=swap");
+
+.Contact {
+    font-family: "Fira Code", monospace;
+}
+
+
+.Contact .background {
+    height: 100vh;
+    background-image: linear-gradient(-60deg, #000000 50%, #160514 50%);
+    color: aliceblue;
+}
+
+.Contact .background .heading {
+    padding-top: 7%;
+    padding-left: 10%;
+    font-size: x-large;
+    font-weight: lighter;
+}
+
+.Contact .background .heading .line {
+    background-color: #ee7f19;
+    width: max-content;
+    height: 4px;
+    padding-left: 15%;
+    margin-left: 15%;
+    margin-top: -1.2%;
+}
+
+.Contact .background .ParentDiv {
+    height: 70%;
+    /* border-style: dashed;
+    color: rgb(17, 201, 35); */
+
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.Contact .background .ParentDiv .ContactDiv {
+    height: max-content;
+    /* border-style: dashed;
+    color: rgb(255, 0, 0); */
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.Contact .background .ParentDiv .ContactDiv .Content {
+    /* width:70vw; */
+    /* height: max-content; */
+    /* border-style: dashed;
+    color: rgb(255, 255, 255); */
+
+    /* margin-top: 5%; */
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: x-large;
+}
+
+.Contact .background .ParentDiv .ContactDiv .ContactDetails {
+    width: 60vw;
+    /* height: 100px; */
+    border-style: groove;
+    color: #ee7f19;
+    padding: 2%;
+    /* font-size: larger; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: small;
+}
+
+.iconsForContact {
+    padding-left: 5%;
+
+    filter: invert(1);
+    cursor: pointer;
+    height: 20px;
+    /* width: 2px; */
+    filter: contrast(20px);
+    margin-right: 10px;
+}
+
+
+.Contact .background .ParentDiv .Footer {
+    /* border-style: dashed;
+    color: rgb(251, 251, 251); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Contact .background .ParentDiv .Footer .BackTop {
+    cursor: pointer;
+    /* height: 100px; */
+    width: max-content;
+    margin: 20px;
+    margin-top: 10px;
+    font-size: small;
+}
+
+.Contact .background .ParentDiv .Footer .SocialMedia {
+    width: calc(20vw);
+    align-items: center;
+    justify-content: center;
+    border-style: groove;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+.Contact .background .ParentDiv .Footer .Rights {
+    font-size: small;
+}
+
+@media (max-width: 600px) {
+
+    .Contact .background .heading {
+        padding-top: 25%;
+        padding-left: 5%;
+        font-size: large;
+        font-weight: lighter;
+    }
+
+    .Contact .background .heading .line {
+        background-color: #ee7f19;
+        width: max-content;
+        height: 4px;
+        padding-left: 15%;
+        margin-left: 41%;
+        margin-top: -3.3%;
+    }
+
+    .Contact .background .ParentDiv .ContactDiv {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Contact .background .ParentDiv .ContactDiv .Content {
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: larger;
+
+    }
+
+    .Contact .background .ParentDiv .ContactDiv .ContactDetails {
+        margin: 10%;
+        margin-left: 15%;
+    }
+
+
+
+}
